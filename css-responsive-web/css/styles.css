@@ -1,0 +1,15 @@
+/*FONTS*/
+
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
