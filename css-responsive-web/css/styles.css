@@ -37,7 +37,7 @@
     margin: 0px auto;
 }
 
-.gear{
+.gear, .icon{
     font-family: "WebSymbolsRegular"
 }
 
@@ -132,3 +132,16 @@
     text-shadow: 3px 3px 1px rgb(2, 14, 27);
 }
 
+/*CARDS*/
+
+.card{
+    float: left;
+    width: 214px;
+    height: 305px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden; 
+    margin: 12px;
+    margin-top: 40px;
+    cursor: pointer;
+}
