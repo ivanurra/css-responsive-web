@@ -440,6 +440,35 @@ aside h3{
     margin-bottom: 20px;
 }
 
+#social .overlay{
+    display: block;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px #ccc;
+    border: 3px solid white;
+    box-shadow: 0px 0px 4px #ccc;
+    background: #f4f7fe;
+    position: absolute;
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: -52px;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    color: rgb(11, 100, 216);
+}
+
+.facebook:hover{
+    color: rgb(30, 85, 156);
+}
+
+.youtube:hover{
+    color: rgb(212, 24, 24);
+}
+
 /*ARTICLES*/
 
 #articles{
@@ -503,6 +532,7 @@ aside h3{
     line-height: 100px;
     text-align: center;
     font-family: "BebasNeue";
+    transition: all 200ms;
 }
 
 #blog a{
@@ -512,6 +542,15 @@ aside h3{
     letter-spacing: 3px;
     color: rgb(5, 63, 150);
     text-decoration: none;
+    transition: all 200ms;
+}
+
+#blog:hover{
+    background: black;
+}
+
+#blog:hover a{
+    color: white;
 }
 
 /*FOOTER*/
@@ -569,6 +608,10 @@ aside h3{
 #footer ul li a{
     display: block;
     height: 40px;
+}
+
+#footer ul li:hover a{
+    color: rgb(7, 185, 230);
 }
 
 #footer iframe{
